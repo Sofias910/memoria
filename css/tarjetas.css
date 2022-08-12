@@ -1,0 +1,48 @@
+#root{
+    width: 79rem;
+    height: Auto;
+    border-radius: 1rem;
+
+    margin: auto;
+    margin-top: 5rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #AB9680;
+}
+
+.fruta{
+    -webkit-transition: 1s linear;
+  transition: 1s linear;
+  width: 10rem;
+    height: 10rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+    -webkit-box-shadow: 3px 3px 5px 0px black;
+    -moz-box-shadow: 3px 3px 5px 0px black;
+    box-shadow: 3px 3px 5px 0px black;
+    font-size: 0rem;
+    margin: 1.5rem;
+    background-color: white;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fruta:hover{
+   background-color: white;
+   transition:0.8s
+}
+
+.activar{
+    background-color: #553D2A;
+    transition: 1s linear;
+    font-size:3rem;
+    transition:1s;
+
+    color:white;
+    -webkit-transform: perspective(150px) rotateY(45deg);
+    transform: rotateY(180deg);
+}
